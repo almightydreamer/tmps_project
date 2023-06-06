@@ -1,0 +1,24 @@
+name: data
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+dependencies:
+  build_runner: ^2.3.2
+  dio: ^4.0.6
+  drift: ^2.2.0
+  drift_dev: ^2.2.0+1
+  either_dart: ^0.3.0
+  path_provider: ^2.0.11
+  sqlite3_flutter_libs: ^0.5.12
+  domain:
+    path: ../domain
